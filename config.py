@@ -7,3 +7,7 @@ def isconfig(): # if there is no config, will return true
         file.close()
         return True
     return False
+
+def print_options():
+    print("q - quit the program")
+    print("r - read site")
