@@ -9,5 +9,6 @@ def isconfig(): # if there is no config, will return true
     return False
 
 def print_options():
-    print("q - quit the program")
+    print("h - shows options")
     print("r - read site")
+    print("q - quit the program")
